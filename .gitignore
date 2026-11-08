@@ -1,5 +1,5 @@
 # This public repository deliberately tracks only its release files.
-# Personal exports, backups, screenshots and arbitrary local files stay ignored.
+# Personal exports, backups, non-demo screenshots and arbitrary local files stay ignored.
 /*
 !/.gitignore
 !/.gitattributes
@@ -9,6 +9,7 @@
 !/index.html
 !/src/
 !/tests/
+!/docs/
 /src/*
 !/src/app.template.html
 !/src/abandonment.js
@@ -22,3 +23,17 @@
 !/src/workflow-rules.js
 /tests/*
 !/tests/smoke.cjs
+!/tests/capture-readme.cjs
+/docs/*
+!/docs/screenshots/
+/docs/screenshots/*
+!/docs/screenshots/01-board.png
+!/docs/screenshots/02-stage-results.png
+!/docs/screenshots/03-company-detail.png
+!/docs/screenshots/04-stage-transition.png
+!/docs/screenshots/05-specialty-filter.png
+!/docs/screenshots/06-status-distribution.png
+!/docs/screenshots/07-ideal-companies.png
+!/docs/screenshots/08-schedule.png
+!/docs/screenshots/09-field-settings.png
+!/docs/screenshots/10-import.png
