@@ -1,0 +1,24 @@
+# This public repository deliberately tracks only its release files.
+# Personal exports, backups, screenshots and arbitrary local files stay ignored.
+/*
+!/.gitignore
+!/.gitattributes
+!/README.md
+!/build.py
+!/demo_data.py
+!/index.html
+!/src/
+!/tests/
+/src/*
+!/src/app.template.html
+!/src/abandonment.js
+!/src/company-notes.js
+!/src/ideal-company-insights.js
+!/src/insights.css
+!/src/insights.js
+!/src/note-format.js
+!/src/note-history.js
+!/src/stage-chronology.js
+!/src/workflow-rules.js
+/tests/*
+!/tests/smoke.cjs
